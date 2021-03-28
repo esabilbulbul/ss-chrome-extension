@@ -1,0 +1,10 @@
+{
+    "name": "native.message.host",
+    "description": "sample native host",
+    "path": "D:\\neotemp\\code\\SHIPSHUK\\BARCODE\\ss-app-barcode-generation\\ss-app-barcode-generation\\bat\\WindowsRunner.bat",
+    "type": "stdio",
+    "allowed_origins":
+    [
+        "chrome-extension://fblaejmehaadjabcobjkdplbiailehlk/"
+    ]
+}

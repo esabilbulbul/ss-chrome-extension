@@ -1,0 +1,1 @@
+REG ADD "HKLM\Software\Google\Chrome\NativeMessagingHosts\native.message.host" /ve /t REG_SZ /d "D:\neotemp\code\SHIPSHUK\BARCODE\CHROME_EXTENSION\nativehost\manifest\NativeHost.json" /f

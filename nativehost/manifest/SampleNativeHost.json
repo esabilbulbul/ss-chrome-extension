@@ -1,0 +1,10 @@
+{
+    "name": "native.message.host",
+    "description": "sample native host",
+    "path": "/Users/esabil/Documents/code/SHIPSHUK/CHROME_EXTENSION/HelloWorld/EXTENSION/app",
+    "type": "stdio",
+    "allowed_origins":
+    [
+        "chrome-extension://pbaajcbmfcknpofalgnehminfgknokai/"
+    ]
+}

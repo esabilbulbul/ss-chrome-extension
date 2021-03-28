@@ -1,0 +1,10 @@
+{
+    "name": "native.message.host",
+    "description": "sample native host",
+    "path": "D:\\neotemp\\code\\SHIPSHUK\\CHROME_EXTENSION\\helloworld\\nativehost\\batfile\\WindowsRunner.bat",
+    "type": "stdio",
+    "allowed_origins":
+    [
+        "chrome-extension://nfjlaihcjepddcohgneofpjajmgjdpmc/"
+    ]
+}

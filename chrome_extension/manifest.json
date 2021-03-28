@@ -1,0 +1,49 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Hello World 3",
+    "icons":
+    {
+        "128":"icons/icon128.png",
+        "48":"icons/icon48.png",
+        "16":"icons/icon16.png"
+    },
+    "page_action":
+    {
+        "default_icon":"/icons/icon16.png",
+        "default_popup":"popup.html"
+    },
+    "content_scripts":
+    [
+        {
+            "matches":[
+                       "http://localhost:8080/*/*", 
+                       "http://localhost:8080/ss-web-client/SHIPSHUK/WEBSITE/pages/merchant/reports/posdekont/mybizstats.html"
+                      ],
+            "js":["content.js"]
+        }
+    ],
+    "background":
+    {
+        "scripts":["background.js"],
+        "persistent": false
+    },
+    "externally_connectable": 
+    {
+        "matches": [
+                    "http://localhost:8080/*/*",
+                    "http://localhost:8080/ss-web-client/CONTROLS/extension/chrome/nativemessaging.html"
+                   ],
+        "ids":[
+                "jgcmoookhlmbabcndhjdadiolfjokbhm",
+                "*"
+              ]
+    },
+    "permissions":
+    [
+        "nativeMessaging",
+        "activeTab",
+        "tabs",
+        "http://localhost:8080/*/*"
+    ]
+}
